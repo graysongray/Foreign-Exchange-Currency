@@ -1,5 +1,5 @@
 # Foreign Exchange Currency App
-This is simple app that calculates a converted foreign exchange currency using the Foreign Exchange Rates API
+This is a simple app that calculates a converted foreign exchange currency using the Foreign Exchange Rates API
 https://exchangeratesapi.io/
 
 This project was built within react, bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
