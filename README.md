@@ -22,3 +22,4 @@ Using Docker <br>
 docker build -t fe-docker .
 docker run -it --rm -p 3000:3000 --name fe-app fe-docker
 ```
+Open http://localhost:3000 to view it in the browser.
