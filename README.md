@@ -8,7 +8,7 @@ This project was built within react, bootstrapped with [Create React App](https:
 First you need clone this git repository, and build the project either using `npm` or `docker`<br>
 ```
 git clone https://github.com/graysongray/Foreign-Exchange-Currency.git
-cd ForeignExchangeCurrency
+cd Foreign-Exchange-Currency
 ```
 
 ### Installing & Run the project
@@ -20,5 +20,5 @@ npm start
 Using Docker <br>
 ```
 docker build -t fe-docker .
-docker run -it --rm -p 5000:5000 --name fe-app fe-docker.
+docker run -it --rm -p 3000:3000 --name fe-app fe-docker
 ```
