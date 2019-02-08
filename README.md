@@ -23,3 +23,9 @@ docker build -t fe-docker .
 docker run -it --rm -p 3000:3000 --name fe-app fe-docker
 ```
 Open http://localhost:3000 to view it in the browser.
+
+### Automated Test<br>
+Automated test using react-testing-library & jest-dom
+```
+npm run test
+```
