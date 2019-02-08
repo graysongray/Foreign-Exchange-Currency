@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
 
-import CurrencyList from '../CurrencyList/CurrencyList';
-import AddCurrencyButton from '../AddCurrencyButton/AddCurrencyButton';
-import AddCurrencyInput from '../AddCurrencyInput/AddCurrencyInput';
-import InputBaseCurrency from '../InputBaseCurrency/InputBaseCurrency.jsx';
-import CurrencyData from './../../CurrencyData';
+import CurrencyList from '../../components/CurrencyList/CurrencyList';
+import AddCurrencyButton from '../../components/AddCurrencyButton/AddCurrencyButton';
+import AddCurrencyInput from '../../components/AddCurrencyInput/AddCurrencyInput';
+import InputBaseCurrency from '../../components/InputBaseCurrency/InputBaseCurrency';
+import CurrencyData from '../../utils/CurrencyData';
 
 import axios from 'axios';
 
