@@ -9,6 +9,7 @@ const InputBaseCurrency = (props) => {
             type="number"
             value={baseCurrency}
             onChange={handleChangeBaseCurrency}
+            aria-label="currency-input"
         />
     )
 
