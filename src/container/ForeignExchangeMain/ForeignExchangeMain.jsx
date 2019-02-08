@@ -6,6 +6,7 @@ import AddCurrencyButton from '../../components/AddCurrencyButton/AddCurrencyBut
 import AddCurrencyInput from '../../components/AddCurrencyInput/AddCurrencyInput';
 import InputBaseCurrency from '../../components/InputBaseCurrency/InputBaseCurrency';
 import CurrencyData from '../../utils/CurrencyData';
+import ApiUrl from '../../utils/ApiUrl';
 
 import axios from 'axios';
 
@@ -44,7 +45,7 @@ class ForeignExchangeMain extends Component {
 		this.setState({
 			apiLoading:true
 		});
-		axios.get('https://api.exchangeratesapi.io/latest?base=USD')
+		axios.get(ApiUrl)
 			.then((res)=>{
 				const apiData = res.data;
 
